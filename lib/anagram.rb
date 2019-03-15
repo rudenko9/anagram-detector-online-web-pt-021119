@@ -5,4 +5,11 @@ class Anagram
     @word = word
   end 
   
+  def self.match(word)
+    @word.each do |word|
+     puts  word
+    end 
+    
+  end 
+  
 end 
