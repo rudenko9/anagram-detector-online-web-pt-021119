@@ -5,6 +5,6 @@ class Anagram
     @word = word
   end 
   
-array.match
+
   
 end 
