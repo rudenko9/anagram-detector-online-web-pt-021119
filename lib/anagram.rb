@@ -5,7 +5,7 @@ class Anagram
     @word = word
   end 
   
-   
+   diaper.match
     
 
   
