@@ -6,8 +6,7 @@ class Anagram
   end 
   
   def self.match(word)
-    @word.each do |word|
-     puts  word
+  
     end 
     
   end 
