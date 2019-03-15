@@ -6,7 +6,7 @@ class Anagram
   end 
   
 def match(anagram)
-  
+  task1 = word.split("")
   
 end 
   
