@@ -5,8 +5,9 @@ class Anagram
     @word = word
   end 
   
-def match(anagram)
-  @word.select do 
+def match(name)
+  @word.select do |name|
+    
 
 
 end 
