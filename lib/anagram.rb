@@ -5,7 +5,7 @@ class Anagram
     @word = word
   end 
   
-def match(array)
+def match(name)
   name.scan(/hi/)
 
 end 
