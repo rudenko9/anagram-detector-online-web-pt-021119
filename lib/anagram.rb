@@ -8,7 +8,7 @@ class Anagram
 def match(word)
   task1 = @word.split("").sort
   @word
-  self.condition = "ba"
+  
   
 end 
   
