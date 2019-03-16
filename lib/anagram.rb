@@ -5,8 +5,9 @@ class Anagram
     @word = word
   end 
   
-def match(name)
-  @word.scan(/ /)
+def match(anagram)
+  @word.select do 
+
 
 end 
   
