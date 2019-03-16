@@ -6,8 +6,8 @@ class Anagram
   end 
   
 def match(array)
-  array.each do |word|
-    @word == word
+  array.scan(//)
+   
   end
 end 
   
