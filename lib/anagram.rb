@@ -7,7 +7,7 @@ class Anagram
   
 def match(name)
   @word.scan(/ /)
-@word.match(/ba/)
+@word.match(/ab/)
 end 
   
 end 
