@@ -1,18 +1,16 @@
 # Your code goes here!
 class Anagram
 
-  def initialize(anagram)
-    @anagram = anagram
+  def initialize(word)
+    @word = word
   end
 
-  def match(words)
+  def match(array)
     words.select do |word|
       is_anagram?(word)
     end
   end
 
-  def is_anagram?(word)
-    word.chars.sort == @anagram.chars.sort
-  end
+ 
 end
   
