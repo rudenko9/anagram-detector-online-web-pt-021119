@@ -5,8 +5,8 @@ class Anagram
     @word = word
   end 
   
-def match(name)
-  @word.select do |name|
+def match(names)
+  names.select do |name|
     is_word?(name)
  end    
  end 
