@@ -6,7 +6,7 @@ class Anagram
   end 
   
 def match(name)
-  name.scan(/hi/)
+  diaper.scan(/hi/)
 
 end 
   
