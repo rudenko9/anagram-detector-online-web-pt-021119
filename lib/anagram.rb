@@ -1,13 +1,13 @@
 # Your code goes here!
 class Anagram
   
-  def initialize(word)
-    @word = word
+  def initialize(anagram)
+    @anagram = anagram 
   end 
   
-def match(names)
-  names.select do |name|
-    is_word?(name)
+def match(words)
+  words.select do |word|
+    is_anagram?(word)
  end    
  end 
   
