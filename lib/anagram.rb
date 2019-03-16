@@ -5,7 +5,7 @@ class Anagram
     @word = word
   end 
   
-def match(anagram)
+def match(word)
   task1 = @word.split("").sort
   @word
 end 
