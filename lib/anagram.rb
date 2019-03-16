@@ -6,9 +6,8 @@ class Anagram
   end
 
   def match(array)
-    words.select do |word|
-      is_anagram?(word)
-    end
+   array.select do |element|
+     @word.split("").sort == element.split("").sort
   end
 
  
