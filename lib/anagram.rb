@@ -7,7 +7,7 @@ class Anagram
   
 def match(name)
   @word.select do |name|
-    @word == name
+    is_word?(name)
  end    
  end 
   
