@@ -8,9 +8,7 @@ class Anagram
 def match(name)
   @word.select do |name|
     @word == name
-    
-
-
-end 
+ end    
+ end 
   
 end 
