@@ -7,7 +7,7 @@ class Anagram
   
 def match(word)
   task1 = @word.split("").sort
-  word
+  @word == word
   
 end 
   
