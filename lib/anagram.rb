@@ -5,9 +5,11 @@ class Anagram
     @word = word
   end 
   
-def match(word)
-  task1 = @word.split("").sort
-  @word
+def match(array)
+  array.each do |word|
+    @word = word
+  end 
+  
   
 end 
   
