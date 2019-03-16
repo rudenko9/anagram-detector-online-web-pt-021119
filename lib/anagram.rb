@@ -6,7 +6,7 @@ class Anagram
   end 
   
 def match(array)
-  array.scan(/ 1/)
+  array.scan(/hi/)
 
 end 
   
